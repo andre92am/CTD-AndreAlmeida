@@ -1,0 +1,133 @@
+html * {
+    /* INSERIR COR EM TODOS OS ELEMENTOS */
+    color: white;
+    /* RESET CSS */
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    background-color: #808080bb;
+}
+
+#titulo {
+    /* COR DA FONTE */    
+    color:red;
+    /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+    text-align: center;
+    /* FAMÍLIA TIPOGRÁFICA */
+    font-family: 'Lobster', cursive;
+    /* TAMANHO DA FONTE */
+    font-size: 40px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+    /* ESPESSURA DA FONTE */
+    font-weight: 300;
+    /* COR DE FUNDO DO TÍTULO */
+    background-color: silver;
+    /* ESPAÇAMENTO */
+    padding: 10px;
+}
+.p{
+    font-size: 10px;
+}
+
+.resumo b {
+    /* TAMANHO */
+    padding: 5px;
+    /* ALINHAMENTO DO TEXTO */
+    text-align: center;
+    /* FAMÍLIA TIPOGRÁFICA */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* TAMANHO DA FONTE */
+    font-size: 20px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+    /* Cor da Fonte */
+    color: red;
+}
+
+.resumo {
+  /* TAMANHO */
+  padding: 20px;
+  /* ALINHAMENTO DO TEXTO */
+  text-align: center;
+  /* FAMÍLIA TIPOGRÁFICA */
+  font-family:Arial, Helvetica, sans-serif;
+  /* TAMANHO DA FONTE */
+  font-size: 18px;
+  /* ESTILO DA FONTE */
+  font-style:inherit;
+  /* Cor da Fonte */
+  color: black;
+  
+}
+
+ul {
+    /* ALINHAMENTO */
+    text-align: center;
+    /* FAMILIA TIPOGRÁFICA */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* TAMANHO DA FONTE */
+    font-size: 16px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+    /* MARGEM */
+    margin: 20px 0px;
+}
+
+#corpo {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align: center;
+}
+
+.subtitulo {
+        /* COR DA FONTE */
+        color: red;
+        /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+        text-align: center;
+        /* FAMÍLIA TIPOGRÁFICA */
+        font-family: 'Lobster', cursive;
+        /* TAMANHO DA FONTE */
+        font-size: 32px;
+        /* ESTILO DA FONTE */
+        font-style: oblique;
+        /* ESPESSURA DA FONTE */
+        font-weight: 200;
+        /* ESPAÇAMENTO */
+        padding: 10px;
+}
+
+li {
+    /* COR DA FONTE */
+    color: red;
+    /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+    text-align: center;
+    /* FAMÍLIA TIPOGRÁFICA */
+    font-family: 'Lobster', cursive;
+    /* TAMANHO DA FONTE */
+    font-size: 32px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+    /* ESPESSURA DA FONTE */
+    font-weight: 200;
+    /* ESPAÇAMENTO */
+    padding: 10px;
+}
+#rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+.icones {
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+}
+
