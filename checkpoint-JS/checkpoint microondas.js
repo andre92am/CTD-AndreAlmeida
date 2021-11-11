@@ -26,6 +26,7 @@ switch(dia){
 /**
  * Funcao alterada
  */
+    let PratoPronto = "Prato pronto, bom apetite!!!"
 
   function mensagemMicroondas(tempo){
     if(tempo <= 10 && tempo >= 1){
@@ -40,17 +41,17 @@ switch(dia){
 }
     if(tempo = "null"){
         return console.log("Nada Selecionado");
-    }
-      console.log(`Prato pronto, bom apetite!!! `);
- }
-
-
-
-
-
+            }           
+            
+             
+}
 mensagemMicroondas('null', false);
+console.log(PratoPronto);
 mensagemMicroondas(8,false);
+console.log(PratoPronto);
 mensagemMicroondas(31,false);
+console.log(PratoPronto);
 mensagemMicroondas(29,false); 
+console.log(PratoPronto);
 
 
