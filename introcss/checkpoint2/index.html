@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+        </style> 
+    <title>Formulario</title>
+</head>
+<body id="corpo">
+    
+    <div id="menu-sup">
+        Formulário de Cadastro
+    </div>
+
+   <form action="/cadastrar"  name="cadastro-usuario" method="post">
+    <fieldset form="cadastro-usuario">
+        <legend>Dados Pessoais</legend>
+    
+        <div>
+         <label for="nome">Nome:</label>
+         <input type="text" name="nome" id="nome" placeholder="Insira o nome" maxlength="100">
+        </div>
+
+        <div>
+          <label for="nascimento">Data de Nascimento:</label>
+          <input type="date" name="nascimento" id="nascimento">
+         </div>
+
+        <div>
+         <label for="email">Email:</label>
+         <input type="email" name="email" id="email" placeholder="Insira o Email">
+        </div>
+
+        <div>
+         <label for="Senha">Senha:</label>
+         <input type="password" name="senha" id="senha" placeholder="Insira a Senha">
+        </div>
+
+        <div>
+          <label for="telNo">Telefone: </label>
+          <input type="tel" class="form-control" id="telNo" name="telNo" maxlength="14" pattern="\(\d{2}\)\s*\d{5}-\d{4}" placeholder="(00)91234-5678">
+        </div>
+
+        <div>
+          <label for="curso">Maior de 18? </label>
+          <input type="radio" id="sim" name="maioridade" value="sim"
+       checked>  <label for="Sim">Sim</label>
+
+          <input type="radio" id="nao" name="maioridade" value="nao"
+><label for="Não">Não</label>
+
+        </div>
+
+        <div>
+          <button for="telNo" id="validar">Validar</button>
+        </div>
+                  
+    </fieldset> 
+
+    <fieldset form="cadastro-usuario">
+        <legend>Interesses</legend>
+        <div>
+            <label for="curso">Ponto de Interesse em sua cidade:</label>
+            <select name="curso" id="curso">
+              <option value="0">Selecione uma opção</option>
+              <option value="1">Shopping</option>
+              <option value="2">Praça</option>
+              <option value="3">Praia</option>
+            </select>
+          </div>
+    
+          <div>
+            <label for="Interesse">Qual seu interesse na cidade?</label>
+            <input type="radio" id="turista" name="interesse" value="turista"         >  
+            <label for="Turista">Turista</label>
+
+            <input type="radio" id="residente" name="interesse2" value="residente"
+  ><label for="Residente">Residente</label>
+
+  <input type="radio" id="estudante" name="interesse3" value="estudante"
+  ><label for="Estudante">Estudante</label>
+
+          </div>
+
+          <div>
+            <label for="minibio">Minibio:</label>
+            <textarea name="minibio" id="minibio" cols="50" rows="3" placeholder="Insira uma apresentação"></textarea>
+          </div>
+    
+        </fieldset>
+    
+        <div class="buttons-div">
+          <button type="reset">Limpar</button>
+          <button type="submit">Cadastrar</button>
+        </div>
+    </fieldset>
+  
+ </form>   
+</body>
+</html>
