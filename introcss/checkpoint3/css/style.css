@@ -17,6 +17,7 @@ body {
        100vh significa 100% da altura da view.
     */
   height: 100vh;
+  padding: 10px;
   /* O tamanho das imagens irá criar uma barra de rolagem 
     horizontal. Iremos desativar isso */
   overflow-x: none;
