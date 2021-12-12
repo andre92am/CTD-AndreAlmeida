@@ -12,6 +12,15 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
+.modal-dialog {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+  position: relative;
+  padding: 10px;
+}
+
 .wrapper {
   /* O elemento precisa ter uma altura definida para o efeito
     funcionar.
@@ -43,6 +52,7 @@ body {
   /* Indicamos "relative" para depois podermos
     posicionar os elementos filhos com "absolute" */
   position: relative;
+  z-index: -1;
   /* Indicamos uma altura para a nossa seção. O valor não 
     importa muito.
     Para garantir um bom efeito, coloquei também uma altura 

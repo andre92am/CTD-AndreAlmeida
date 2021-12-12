@@ -32,17 +32,14 @@
       <main class="wrapper">
           <section class="section bg1">
             <p class="text" >TopCine - A sua melhor escolha!<br>
-              <input type="button" onclick="funcao1()" value="Sobre o site" /></p>
+              <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+  Descrição
+  </button></p>  
+    </div>
           </section>        
         </main>
       </div>
-  
-      <script>
-        function funcao1()
-        {
-        alert("O conteúdo deste site é dedicado a críticas sobre filmes, \nnenhum valor foi obtido para divulgação.  \nO intuito é ajudar os leitores a escolher os melhores \ntítulos disponíveis.");
-        }
-        </script>
 
     <div id="criticas">
         <div class="container border ms-5 p-5">
@@ -127,4 +124,26 @@
 
 </footer>
 <!-- Footer -->
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Nosso Site</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+  <span aria-hidden="true">&times;</span>
+  </button>
+  </div>
+  <div class="modal-body">
+  O conteúdo deste site é dedicado as críticas sobre filmes,
+  nenhum valor foi obtido para divulgação.
+  O intuito é ajudar nossos leitores a escolherem
+  os melhores títulos disponíveis.
+  Aproveite e bom filme!!!
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+  </div>
+  </div>
+  </div>
 </html>
